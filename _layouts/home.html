@@ -1,0 +1,116 @@
+---
+layout: default
+---
+
+<section class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">vivo BlueImage Lab · Computer Vision · MLLM</p>
+    <h1>Bo Li</h1>
+    <p class="hero-lede">
+      Research leader in AI imaging, multimodal vision, computational photography, and device-native intelligence.
+    </p>
+    <p class="hero-body">
+      I am a Principal Researcher in the Camera Research Department at vivo, working with vivo BlueImage Lab on mobile imaging, content generation, agents, and foundation models. Before vivo, I was a researcher at Tencent Youtu Lab. I received my B.Sc. and Ph.D. degrees from Nanjing University.
+    </p>
+    <div class="hero-actions" aria-label="Profile links">
+      <a href="{{ site.social.google_scholar }}">Google Scholar</a>
+      <a href="{{ site.social.openreview }}">OpenReview</a>
+      <a href="{{ site.social.github }}">vivo Camera Research</a>
+      <a href="{{ site.social.x }}">X</a>
+    </div>
+  </div>
+  <aside class="hero-card">
+    <img src="{{ '/assets/img/bo-li.jpeg' | relative_url }}" alt="Bo Li portrait">
+    <div>
+      <h2>Bo Li <span>李博</span></h2>
+      <p>Principal Researcher<br>vivo BlueImage Lab</p>
+    </div>
+  </aside>
+</section>
+
+<section class="trust-strip" aria-label="Selected credentials">
+  <span>NeurIPS SAC</span>
+  <span>ICLR AC</span>
+  <span>CVPR Finalist</span>
+  <span>3,573+ citations</span>
+  <span>OpenReview verified profile</span>
+  <span>vivo BlueImage Lab</span>
+</section>
+
+<section class="section-block">
+  <div class="section-intro">
+    <p class="eyebrow">Research Agenda</p>
+    <h2>From academic vision research to device-scale imaging systems.</h2>
+  </div>
+  <div class="pillar-grid">
+    <article>
+      <h3>AI Imaging and Computational Photography</h3>
+      <p>Imaging algorithms that help mobile devices capture, restore, understand, and generate high-quality visual content.</p>
+    </article>
+    <article>
+      <h3>Multimodal Vision, MLLM, and AIGC</h3>
+      <p>Research across diffusion models, dense prediction, visual grounding, segmentation, matting, bokeh rendering, and intelligent photo editing.</p>
+    </article>
+    <article>
+      <h3>Device-Native Intelligence</h3>
+      <p>Research-to-product systems that connect data, models, evaluation, deployment, and real camera or album experiences.</p>
+    </article>
+  </div>
+</section>
+
+<section class="section-block">
+  <div class="section-header">
+    <div>
+      <p class="eyebrow">Selected Publications</p>
+      <h2>Representative work</h2>
+    </div>
+    <a class="text-link" href="{{ '/publications/' | relative_url }}">View all publications</a>
+  </div>
+  <div class="publication-list featured">
+    {% assign selected_papers = site.data.publications | where: "selected", true %}
+    {% for paper in selected_papers limit: 5 %}
+      {% include publication-card.html paper=paper %}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section-block lab-band">
+  <div>
+    <p class="eyebrow">vivo BlueImage Lab</p>
+    <h2>Mobile imaging, computational photography, content generation, agents, and foundation models.</h2>
+    <p>
+      vivo Camera Research publicly describes vivo BlueImage Lab as exploring mobile imaging, computational photography, content generation, agents, and foundation models. Public repositories include work on bokeh rendering, photo editing, matting, video generation, perspective composition, and virtual try-on.
+    </p>
+    <a class="text-link" href="{{ '/blueimage/' | relative_url }}">Explore the lab agenda</a>
+  </div>
+  <div class="project-mini-grid">
+    {% for project in site.data.projects limit: 4 %}
+      <a href="{{ project.url }}">{{ project.name }}</a>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section-block split-section">
+  <div>
+    <p class="eyebrow">Service and Recognition</p>
+    <h2>Academic service across top AI venues.</h2>
+    <ul class="clean-list">
+      <li>Senior Area Chair, NeurIPS.</li>
+      <li>Area Chair, ICLR.</li>
+      <li>CVPR finalist, source link pending final confirmation.</li>
+      <li>Jiangsu Provincial Outstanding Doctoral Thesis.</li>
+    </ul>
+    <a class="text-link" href="{{ '/service/' | relative_url }}">Service details</a>
+  </div>
+  <div>
+    <p class="eyebrow">News</p>
+    <div class="news-list">
+      {% for item in site.data.news limit: 5 %}
+        <article>
+          <time>{{ item.date }}</time>
+          <p>{{ item.text }}</p>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>

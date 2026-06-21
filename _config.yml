@@ -1,0 +1,49 @@
+title: Bo Li
+description: Research leader in AI imaging, multimodal vision, and device-native intelligence.
+url: "https://libraboli.github.io"
+baseurl: ""
+lang: en
+timezone: Asia/Shanghai
+
+author:
+  name: Bo Li
+  chinese_name: 李博
+  role: Principal Researcher, vivo BlueImage Lab
+  affiliation: Camera Research Department, vivo
+  email_domain: vivo.com
+
+social:
+  google_scholar: https://scholar.google.com/citations?user=NVzQ87sAAAAJ&hl=en
+  openreview: https://openreview.net/profile?id=~Bo_Li20
+  dblp: https://dblp.org
+  github: https://github.com/vivoCameraResearch
+  x: https://x.com/BoLi_CV
+  homepage: https://libraboli.github.io/
+
+navigation:
+  - title: About
+    url: /
+  - title: Publications
+    url: /publications/
+  - title: BlueImage Lab
+    url: /blueimage/
+  - title: Service
+    url: /service/
+  - title: CV
+    url: /cv/
+  - title: Writing
+    url: /writing/
+
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - legacy
+  - docs
+  - work
+  - node_modules
+

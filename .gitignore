@@ -1,2 +1,5 @@
 .superpowers/
-
+.bundle/
+.jekyll-cache/
+_site/
+vendor/
