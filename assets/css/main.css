@@ -193,6 +193,42 @@ p {
   margin: 0;
 }
 
+.venue-stats {
+  display: grid;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.venue-stats div {
+  min-height: 74px;
+  padding: 10px 8px;
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  background: var(--soft);
+  text-align: center;
+}
+
+.venue-stats strong {
+  display: block;
+  color: var(--ink);
+  font-size: 1.35rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.venue-stats span {
+  display: block;
+  margin-top: 4px;
+  color: var(--subtle);
+  font-size: 0.82rem;
+}
+
+.source-note {
+  margin: 12px 0 0;
+  color: var(--subtle);
+  font-size: 0.88rem;
+}
+
 .pub-list {
   display: grid;
   gap: 18px;
@@ -440,6 +476,7 @@ p {
   }
 
   .news-list article,
+  .venue-stats,
   .pub-item,
   .publication-card,
   .project-grid,
