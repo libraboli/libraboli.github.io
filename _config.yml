@@ -31,8 +31,6 @@ navigation:
     url: /service/
   - title: CV
     url: /cv/
-  - title: Writing
-    url: /writing/
 
 markdown: kramdown
 highlighter: rouge
@@ -46,4 +44,3 @@ exclude:
   - docs
   - work
   - node_modules
-
