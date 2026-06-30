@@ -1,0 +1,40 @@
+- name: "vivo Camera Research"
+  area: "Lab"
+  description: "Public GitHub organization for vivo BlueImage Lab research projects."
+  url: "https://github.com/vivoCameraResearch"
+
+- name: "MagicBokeh"
+  area: "Computational Photography"
+  description: "Unified high-zoom bokeh rendering research."
+  url: "https://github.com/vivoCameraResearch/MagicBokeh"
+
+- name: "SmartPhotoCrafter"
+  area: "AI Photo Editing"
+  description: "Unified reasoning, generation, and optimization for automatic photographic image editing."
+  url: "https://github.com/vivoCameraResearch/SmartPhotoCrafter"
+
+- name: "Any-to-Bokeh"
+  area: "Video Bokeh"
+  description: "Arbitrary-subject video refocusing with video diffusion models."
+  url: "https://github.com/vivoCameraResearch/any-to-bokeh"
+
+- name: "SDMatte"
+  area: "Matting"
+  description: "Diffusion-model grafting for interactive matting."
+  url: "https://github.com/vivoCameraResearch/SDMatte"
+
+- name: "PPC"
+  area: "Aesthetic Recommendation"
+  description: "Photography perspective composition for aesthetic perspective recommendation."
+  url: "https://github.com/vivoCameraResearch/PPC-Official"
+
+- name: "MagicTryOn"
+  area: "Video Generation"
+  description: "Garment-preserving video virtual try-on with diffusion transformers."
+  url: "https://github.com/vivoCameraResearch/Magic-TryOn"
+
+- name: "Hyper-Motion"
+  area: "Human Animation"
+  description: "Pose-guided human image animation based on a large-scale video diffusion transformer."
+  url: "https://github.com/vivoCameraResearch/Hyper-Motion"
+

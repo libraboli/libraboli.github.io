@@ -1,0 +1,19 @@
+{% assign paper = include.paper %}
+<article class="publication-card">
+  {% if paper.preview %}
+    <img src="{{ '/assets/img/publications/' | append: paper.preview | relative_url }}" alt="{{ paper.title }} preview">
+  {% endif %}
+  <div>
+    <p class="venue">{{ paper.venue }} · {{ paper.year }}</p>
+    <h3>{{ paper.title }}</h3>
+    <p class="authors">{{ paper.authors }}</p>
+    {% if paper.note %}
+      <p class="paper-note">{{ paper.note }}</p>
+    {% endif %}
+    <div class="paper-links">
+      {% if paper.paper %}<a href="{{ paper.paper }}">Paper</a>{% endif %}
+      {% if paper.code %}<a href="{{ paper.code }}">Code</a>{% endif %}
+      {% if paper.project %}<a href="{{ paper.project }}">Project</a>{% endif %}
+    </div>
+  </div>
+</article>

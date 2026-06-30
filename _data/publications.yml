@@ -1,0 +1,95 @@
+- title: "Detecting Camouflaged Object in Frequency Domain"
+  authors: "Yijie Zhong, Bo Li, Lv Tang, Senyun Kuang, Shuang Wu, Shouhong Ding"
+  venue: "CVPR"
+  year: 2022
+  selected: true
+  preview: "cvpr2022-cod.png"
+  paper: "https://openaccess.thecvf.com/content/CVPR2022/html/Zhong_Detecting_Camouflaged_Object_in_Frequency_Domain_CVPR_2022_paper.html"
+  note: "Co-first and corresponding author."
+
+- title: "ASAM: Boosting Segment Anything Model with Adversarial Tuning"
+  authors: "Bo Li, Haoke Xiao, Lv Tang"
+  venue: "CVPR"
+  year: 2024
+  selected: true
+  preview: "cvpr2024-asam.png"
+  paper: "https://openaccess.thecvf.com/content/CVPR2024/html/Li_ASAM_Boosting_Segment_Anything_Model_with_Adversarial_Tuning_CVPR_2024_paper.html"
+
+- title: "Towards Training-Free Open-World Segmentation via Image Prompting Foundation Models"
+  authors: "Lv Tang, Peng-Tao Jiang, Haoke Xiao, Bo Li"
+  venue: "IJCV"
+  year: 2024
+  selected: true
+  preview: "ijcv2024-ipseg.png"
+  paper: "https://link.springer.com/article/10.1007/s11263-024-02185-6"
+  note: "Corresponding author."
+
+- title: "Chain of Visual Perception: Harnessing Multimodal Large Language Models for Zero-Shot Camouflaged Object Detection"
+  authors: "Lv Tang, Peng-Tao Jiang, Zhi-Hao Shen, Hao Zhang, Jinwei Chen, Bo Li"
+  venue: "ACM Multimedia"
+  year: 2024
+  selected: true
+  preview: "mm2024-covp.jpg"
+  paper: "https://arxiv.org/abs/2311.11273"
+  note: "Also referenced as CoVP in earlier project material."
+
+- title: "Revisiting Single Image Reflection Removal in the Wild"
+  authors: "Yurui Zhu, Xueyang Fu, Peng-Tao Jiang, Hao Zhang, Qibin Sun, Jinwei Chen, Zheng-Jun Zha, Bo Li"
+  venue: "CVPR"
+  year: 2024
+  selected: true
+  preview: "cvpr2024-reflection-removal.png"
+  paper: "https://openaccess.thecvf.com/content/CVPR2024/papers/Zhu_Revisiting_Single_Image_Reflection_Removal_In_the_Wild_CVPR_2024_paper.pdf"
+  note: "Corresponding author."
+
+- title: "Multi-Task Dense Prediction via Mixture of Low-Rank Experts"
+  authors: "Yuqi Yang, Peng-Tao Jiang, Qibin Hou, Hao Zhang, Jinwei Chen, Bo Li"
+  venue: "CVPR"
+  year: 2024
+  selected: false
+  paper: "https://arxiv.org/abs/2403.17749"
+
+- title: "Unsupervised Modality Adaptation with Text-to-Image Diffusion Models for Semantic Segmentation"
+  authors: "Ruihao Xia, Yu Liang, Peng-Tao Jiang, Hao Zhang, Bo Li, Yang Tang, Pan Zhou"
+  venue: "NeurIPS"
+  year: 2024
+  selected: false
+  paper: "https://arxiv.org/abs/2410.21769"
+
+- title: "High-Precision Dichotomous Image Segmentation via Probing Diffusion Capacity"
+  authors: "Qian Yu, Peng-Tao Jiang, Hao Zhang, Jinwei Chen, Bo Li, Lihe Zhang, Huchuan Lu"
+  venue: "ICLR"
+  year: 2025
+  selected: false
+  paper: "https://arxiv.org/abs/2410.10105"
+
+- title: "Learning Adaptive Lighting via Channel-Aware Guidance"
+  authors: "Qirui Yang, Peng-Tao Jiang, Hao Zhang, Jinwei Chen, Bo Li, Huanjing Yue, Jingyu Yang"
+  venue: "ICML"
+  year: 2025
+  selected: false
+  paper: "https://arxiv.org/abs/2505.20492"
+
+- title: "Photography Perspective Composition: Towards Aesthetic Perspective Recommendation"
+  authors: "Lujian Yao, Siming Zheng, Xinbin Yuan, Zhuoxuan Cai, Pu Wu, Jinwei Chen, Bo Li, Peng-Tao Jiang"
+  venue: "NeurIPS"
+  year: 2025
+  selected: false
+  paper: "https://arxiv.org/abs/2505.21838"
+  code: "https://github.com/vivoCameraResearch/PPC-Official"
+
+- title: "Trust but Verify: Adaptive Conditioning for Reference-Based Diffusion Super-Resolution via Implicit Reference Correlation Modeling"
+  authors: "Yuan Wang, Yuhao Wan, Siming Zheng, Bo Li, Qibin Hou, Peng-Tao Jiang"
+  venue: "ICLR"
+  year: 2026
+  selected: false
+  paper: "https://openreview.net/forum?id=rlvO0YvS1C"
+  code: "https://github.com/vivoCameraResearch/AdaRefSR"
+
+- title: "Towards Photorealistic and Efficient Bokeh Rendering via Diffusion Framework for Mobile Devices"
+  authors: "Linxiao Shi, Siming Zheng, Zerong Wang, Hao Zhang, Jinwei Chen, Bo Li, Shifeng Chen, Peng-Tao Jiang"
+  venue: "CVPR"
+  year: 2026
+  selected: false
+  paper: "https://openaccess.thecvf.com/content/CVPR2026/papers/Shi_Towards_Photorealistic_and_Efficient_Bokeh_Rendering_via_Diffusion_Framework_CVPR_2026_paper.pdf"
+
