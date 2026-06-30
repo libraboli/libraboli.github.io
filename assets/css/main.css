@@ -244,6 +244,27 @@ p {
   font-size: 0.95rem;
 }
 
+.role-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0 0 5px;
+}
+
+.role-tag {
+  display: inline-flex;
+  align-items: center;
+  min-height: 20px;
+  padding: 1px 6px;
+  border: 1px solid color-mix(in srgb, var(--accent) 36%, var(--line));
+  border-radius: 3px;
+  background: color-mix(in srgb, var(--accent) 8%, #fff);
+  color: var(--accent-dark);
+  font-size: 0.74rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
 .venue {
   margin: 0 0 4px;
   color: var(--subtle);
