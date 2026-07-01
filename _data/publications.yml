@@ -76,7 +76,7 @@
   venue: "NeurIPS"
   year: 2025
   selected: false
-  paper: "https://arxiv.org/abs/2505.21838"
+  paper: "https://arxiv.org/abs/2505.20655"
   code: "https://github.com/vivoCameraResearch/PPC-Official"
 
 - title: "Trust but Verify: Adaptive Conditioning for Reference-Based Diffusion Super-Resolution via Implicit Reference Correlation Modeling"
