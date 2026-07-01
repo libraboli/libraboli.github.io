@@ -244,25 +244,37 @@ p {
   font-size: 0.95rem;
 }
 
-.role-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  margin: 0 0 5px;
-}
-
-.role-tag {
+.author-role {
   display: inline-flex;
   align-items: center;
-  min-height: 20px;
-  padding: 1px 6px;
-  border: 1px solid color-mix(in srgb, var(--accent) 36%, var(--line));
-  border-radius: 3px;
-  background: color-mix(in srgb, var(--accent) 8%, #fff);
-  color: var(--accent-dark);
-  font-size: 0.74rem;
-  font-weight: 600;
-  line-height: 1.2;
+  min-height: 19px;
+  margin-left: 6px;
+  padding: 1px 6px 2px;
+  border: 1px solid;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  line-height: 1.1;
+  vertical-align: 0.08em;
+  white-space: nowrap;
+}
+
+.author-role-first {
+  background: #e7f1ff;
+  border-color: #84aee8;
+  color: #1c4f83;
+}
+
+.author-role-cofirst {
+  background: #fff1ce;
+  border-color: #d89a22;
+  color: #704800;
+}
+
+.author-role-corresponding {
+  background: #e7f6ed;
+  border-color: #72b88b;
+  color: #225d38;
 }
 
 .venue {
