@@ -5,6 +5,7 @@
   selected: true
   paper: "https://arxiv.org/abs/2603.14916"
   code: "https://github.com/IntMeGroup/EditHF"
+  preview: "edithf-1m.webp"
   note: "Oral presentation."
 
 - title: "Anchor Forcing: Anchor Memory and Tri-Region RoPE for Interactive Streaming Video Diffusion"
@@ -14,6 +15,7 @@
   selected: true
   paper: "https://arxiv.org/abs/2603.13405"
   code: "https://github.com/vivoCameraResearch/Anchor-Forcing"
+  preview: "anchor-forcing.webp"
 
 - title: "GR-GRPO: Graph-Diffused Credit for Autoregressive Image RL Alignment"
   authors: "Zheyu Zhang, Peng-Tao Jiang, Tianyi Zheng, Jian Zhang, Jinwei Chen, Bo Li"
@@ -21,6 +23,7 @@
   year: 2026
   selected: true
   code: "https://github.com/vivoCameraResearch/GR-GRPO"
+  preview: "gr-grpo.webp"
   note: "Corresponding author."
 
 - title: "SyncCache: Exploiting Asymmetric Dynamics for Fast Audio-Driven Portrait Animation"
@@ -29,6 +32,7 @@
   year: 2026
   selected: false
   paper: "https://arxiv.org/abs/2606.30849"
+  preview: "synccache.webp"
 
 - title: "MagicMakeup: A Region-Controllable Diffusion Transformer for High-Fidelity Makeup-Transfer"
   authors: "Ziyi Wang, Siming Zheng, Yang Yang, Shusong Xu, Hao Zhang, Bo Li, Changqing Zou, Peng-Tao Jiang"
@@ -37,6 +41,7 @@
   selected: false
   paper: "https://arxiv.org/abs/2607.20924"
   code: "https://github.com/vivoCameraResearch/Magic-Makeup"
+  preview: "magicmakeup.webp"
 
 - title: "JSON: Jigsaw Self-play Optimization for Normalizing Flows"
   authors: "Fengxiang Yang, Tianyi Zheng, Jinwei Chen, Bo Li"
@@ -44,6 +49,8 @@
   year: 2026
   selected: false
   paper: "https://eccv.ecva.net/virtual/2026/poster/3623"
+  preview: "json.webp"
+  note: "Corresponding author."
 
 - title: "Fair and Faithful: A Diffusion-Enhanced Dataset and Hybrid State-Space Mamba for Face Super-Resolution"
   authors: "Tao Wang, Peiwen Xia, Bowen Tang, Jinwei Chen, Kaihao Zhang, Bo Li"
@@ -51,6 +58,7 @@
   year: 2026
   selected: false
   paper: "https://link.springer.com/book/10.1007/978-3-032-37023-5"
+  preview: "fair-and-faithful.webp"
 
 - title: "Event-driven Motion Deblurring via Trajectory-based Kernel Reconstruction"
   authors: "Zhiwei Zhong, Peilin Chen, Wei Dong, Bo Li, Anmin Liu, Shiqi Wang"
@@ -58,6 +66,7 @@
   year: 2026
   selected: false
   paper: "https://eccv.ecva.net/Conferences/2026/AcceptedPapers"
+  preview: "event-deblurring.webp"
 
 - title: "B-Spar: Bayesian Sparse-Reward Modeling for RL-based Image Editing"
   authors: "Shusong Xu, Peiye Liu, Yongbin Liu, Bangjie Yin, Tianyi Zheng, Zhaomang Sun, Zhenyu Chen, Peng-Tao Jiang, Jian Zhang, Yuzhao Wang, Zhen Gu, Jinwei Chen, Bo Li"
@@ -66,6 +75,8 @@
   selected: false
   paper: "https://proceedings.mlr.press/v306/xu26aj.html"
   code: "https://github.com/chan2lucky/B-Spar"
+  preview: "b-spar.webp"
+  note: "Corresponding author."
 
 - title: "REPA-FPO: A Fisher Policy Optimization for Efficient Flow Matching Training"
   authors: "Tianyi Zheng, Fengxiang Yang, Yijie Zhong, Jiayang Gao, Lv Tang, Jinwei Chen, Peng-Tao Jiang, Jia Wang, Bo Li"
